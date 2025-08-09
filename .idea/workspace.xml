@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7262054b-0bfa-4b2b-8c3e-981ff6c35449" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/styp/com/lab10/controller/ListaServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/styp/com/lab10/controller/ProfesorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/styp/com/lab10/dto/ProfesorDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/profesor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/del.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ins.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pi_cap.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pi_hf.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/upd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/lista.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/profesorINS.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/profesorUDP.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +31,12 @@
     &quot;assignee&quot;: &quot;stypcanto&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:stypcanto/prac_java_lab11.git",
-    "accountId": "005a13ba-3f43-4e6a-be6e-617603e24dbe"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:stypcanto/prac_java_lab11.git&quot;,
+    &quot;accountId&quot;: &quot;005a13ba-3f43-4e6a-be6e-617603e24dbe&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -90,6 +76,69 @@
       <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Lab10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Lab10" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Lab10" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="Lab10" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Lab10" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -107,7 +156,8 @@
       <updated>1753928187939</updated>
       <workItem from="1753928189593" duration="14618000" />
       <workItem from="1754099737414" duration="1054000" />
-      <workItem from="1754700465087" duration="1509000" />
+      <workItem from="1754700465087" duration="1612000" />
+      <workItem from="1754702089922" duration="54000" />
     </task>
     <servers />
   </component>
