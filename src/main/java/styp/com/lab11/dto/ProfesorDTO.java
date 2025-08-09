@@ -2,6 +2,7 @@ package styp.com.lab11.dto;
 
 import java.sql.Date;
 
+
 public class ProfesorDTO
 {
     private Integer idprofesor;

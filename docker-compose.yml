@@ -1,0 +1,41 @@
+
+version: "3.8"
+
+services:
+  tomcat:
+    build: .
+    container_name: Lab11
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+    # Puedes dejar estas variables si tu app planea usarlas algún día
+    # pero para JNDI no son necesarias
+    # environment:
+    #   - DB_HOST=db
+    #   - DB_PORT=3306
+    #   - DB_USER=root
+    #   - DB_PASS=mysql
+    #   - DB_NAME=asistencia
+
+  db:
+    image: mysql:8.0
+    container_name: mysql-db-2
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql
+      MYSQL_DATABASE: asistencia
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-pmysql"]
+      interval: 5s
+      timeout: 10s
+      retries: 10
+
+volumes:
+  db_data:

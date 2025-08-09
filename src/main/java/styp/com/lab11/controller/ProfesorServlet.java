@@ -1,6 +1,6 @@
 package styp.com.lab11.controller;
 
-import styp.com.lab10.dto.ProfesorDTO;
+import styp.com.lab11.dto.ProfesorDTO;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;

@@ -1,2 +1,3 @@
-/Users/styp/Documents/Cursos/Java/Cibertec_ejercicios/Lab10/src/main/java/styp/com/lab10/ListaServlet.java
-/Users/styp/Documents/Cursos/Java/Cibertec_ejercicios/Lab10/src/main/java/styp/com/lab10/Profesor.java
+/Users/styp/Documents/Cursos/Java/Cibertec_ejercicios/Lab11/src/main/java/styp/com/lab11/controller/ListaServlet.java
+/Users/styp/Documents/Cursos/Java/Cibertec_ejercicios/Lab11/src/main/java/styp/com/lab11/controller/ProfesorServlet.java
+/Users/styp/Documents/Cursos/Java/Cibertec_ejercicios/Lab11/src/main/java/styp/com/lab11/dto/ProfesorDTO.java

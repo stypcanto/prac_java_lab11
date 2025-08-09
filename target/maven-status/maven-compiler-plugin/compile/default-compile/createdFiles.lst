@@ -1,2 +1,3 @@
-styp/com/lab10/ListaServlet.class
-styp/com/lab10/Profesor.class
+styp/com/lab11/controller/ListaServlet.class
+styp/com/lab11/controller/ProfesorServlet.class
+styp/com/lab11/dto/ProfesorDTO.class

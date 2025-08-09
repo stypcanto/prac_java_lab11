@@ -1,6 +1,6 @@
 package styp.com.lab11.controller;
 
-
+import styp.com.lab11.dto.ProfesorDTO;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -27,7 +27,7 @@ public class ListaServlet extends HttpServlet
         try
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/asistencia?serverTimezone=UTC",
+            Connection conexion = DriverManager.getConnection("jdbc:mysql://db:3306/asistencia?serverTimezone=UTC",
                     "root",
                     "mysql");
 

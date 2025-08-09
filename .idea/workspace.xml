@@ -5,9 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7262054b-0bfa-4b2b-8c3e-981ff6c35449" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/styp/com/lab10/controller/ListaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/styp/com/lab11/controller/ListaServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/styp/com/lab10/controller/ProfesorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/styp/com/lab11/controller/ProfesorServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/styp/com/lab10/dto/ProfesorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/styp/com/lab11/dto/ProfesorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/styp/com/lab11/controller/ListaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/styp/com/lab11/controller/ListaServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/styp/com/lab11/controller/ProfesorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/styp/com/lab11/controller/ProfesorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/styp/com/lab11/dto/ProfesorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/styp/com/lab11/dto/ProfesorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab10.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab10/WEB-INF/classes/styp/com/lab10/ListaServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab10/WEB-INF/classes/styp/com/lab10/Profesor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab10/WEB-INF/lib/jakarta.el-api-5.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab10/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab10/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab10/WEB-INF/lib/mysql-connector-j-8.0.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab10/WEB-INF/lib/protobuf-java-3.21.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab10/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab10/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/styp/com/lab10/ListaServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/styp/com/lab10/Profesor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Dockerfile" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -58,6 +78,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/styp/Documents/Cursos/Java/Cibertec_ejercicios/Lab11",
@@ -160,7 +181,7 @@
       <workItem from="1754099737414" duration="1054000" />
       <workItem from="1754700465087" duration="1612000" />
       <workItem from="1754702089922" duration="54000" />
-      <workItem from="1754702251466" duration="151000" />
+      <workItem from="1754702251466" duration="1533000" />
     </task>
     <servers />
   </component>
