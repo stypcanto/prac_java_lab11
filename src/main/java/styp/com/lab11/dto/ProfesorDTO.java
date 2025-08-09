@@ -1,4 +1,4 @@
-package styp.com.lab10.dto;
+package styp.com.lab11.dto;
 
 import java.sql.Date;
 

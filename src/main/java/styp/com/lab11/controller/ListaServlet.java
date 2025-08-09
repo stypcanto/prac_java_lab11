@@ -1,4 +1,4 @@
-package styp.com.lab10.controller;
+package styp.com.lab11.controller;
 
 
 import jakarta.servlet.ServletException;
